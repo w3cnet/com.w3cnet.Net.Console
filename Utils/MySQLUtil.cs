@@ -16,6 +16,20 @@ namespace com.w3cnet.NETFramework
         /// </summary>
         public static readonly string ConnStr = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
 
+		/// <summary>
+        /// 执行语句并返回影响的行数
+        /// </summary>
+        /// <param name="cmdText">命令字符串</param>
+        /// <param name="parameters">参数集</param>
+        /// <returns>影响的行数</returns>
+        public static int ExecuteNonQuery(string cmdText, params MySqlParameter[] parameters)
+        {
+            using (var conn = new MySqlConnection(ConnStr))
+            {
+                return ExecuteNonQuery(conn, CommandType.Text, cmdText, parameters);
+            }
+        }
+		
         /// <summary>
         /// 执行语句并返回影响的行数
         /// </summary>
