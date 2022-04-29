@@ -4,7 +4,7 @@ using System.Configuration;
 using MySql.Data.MySqlClient;
 using System.Data;
 
-namespace com.w3cnet.NETFramework
+namespace com.w3cnet.Net
 {
     /// <summary>
     /// MySQL数据库工具类

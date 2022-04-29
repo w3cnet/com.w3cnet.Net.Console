@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace com.w3cnet.NETFramework
+namespace com.w3cnet.Net
 {
     public class HttpUtil
     {

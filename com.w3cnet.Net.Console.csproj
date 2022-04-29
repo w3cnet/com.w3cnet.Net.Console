@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{AA55CD8D-8D88-474A-883F-A6F1CB71DCF9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>com.w3cnet.NETFramework</RootNamespace>
-    <AssemblyName>com.w3cnet.NETFramework</AssemblyName>
+    <RootNamespace>com.w3cnet.Net</RootNamespace>
+    <AssemblyName>com.w3cnet.Net.Console</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace com.w3cnet.NETFramework
+namespace com.w3cnet.Net
 {
     class Program
     {
