@@ -10,7 +10,11 @@ namespace com.w3cnet.NETFramework
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello world.");
 
+            Console.WriteLine();
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadLine();
         }
     }
 }
